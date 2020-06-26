@@ -1,0 +1,47 @@
+fieldset{
+    height: 370px;
+    width: 450px;
+    border-color: black;
+    border-style: solid;
+    background-color: cadetblue;
+    
+}
+h1{
+    font-size:250%;
+    color: lightseagreen;
+    font-style: italic;
+}
+input{
+    height: 40px;
+    border-style: double;
+    border-color:black;
+    margin-top: 10px;
+    background-color: lightcyan;
+    font-size: large;
+    padding-left: 15px;
+}
+.clearing{
+    width:100%;
+    margin-top: 15px;
+    height: 35px;
+    border-style: solid;
+    border-color:black;
+    font-size: large;
+
+}
+.firstrow{
+    width: 24%;
+    margin-top: 15px;
+    border-style: solid;
+    height: 35px;
+    border-color:black;
+    font-size: large;
+}
+.last{
+    margin-top: 15px;
+    border-style: solid;
+    height: 35px;
+    border-color:black;
+    font-size: large;
+    width:32% ;
+}

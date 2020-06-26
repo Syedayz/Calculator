@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>CALCULATOR</h1></center>
+    <center><fieldset>
+        <div class="calculator">
+            <input id="takinginput" class="takinginput" type="text"  size="50px">
+        </div>
+        <div>
+            <button class="clearing" onclick="clearR()">C</button>
+        </div>
+        <div>
+            <button class="firstrow" onclick="getinput('7')">7</button>
+            <button class="firstrow" onclick="getinput('8')">8</button>
+            <button class="firstrow" onclick="getinput('9')">9</button>
+            <button class="firstrow" onclick="getinput('*')">X</button>
+        </div>
+        <div>
+            <button class="firstrow" onclick="getinput('4')">4</button>
+            <button class="firstrow" onclick="getinput('5')">5</button>
+            <button class="firstrow" onclick="getinput('6')">6</button>
+            <button class="firstrow" onclick="getinput('-')">-</button>
+        </div>
+        <div>
+            <button class="firstrow" onclick="getinput('1')">1</button>
+            <button class="firstrow" onclick="getinput('2')">2</button>
+            <button class="firstrow" onclick="getinput('3')">3</button>
+            <button class="firstrow" onclick="getinput('+')">+</button>
+        </div>
+        <div>
+            <button class="last" onclick="getinput('/')">/</button>
+            <button class="last" onclick="getinput('0')">0</button>
+            <button class="last" onclick="getinput('%')">%</button>
+            <button class="last" onclick="equalsto()">=</button>
+            
+        </div>
+
+    </fieldset></center>
+    <script src="app.js"></script>
+</body>
+</html>
